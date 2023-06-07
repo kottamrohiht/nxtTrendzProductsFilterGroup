@@ -1,0 +1,131 @@
+.filters-group-container {
+  margin-top: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.input-container-el {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f5f9;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.searchel {
+  border: 0px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 600;
+  width: 100%;
+  outline: none;
+  margin-right: 7px;
+}
+
+.BsSearch {
+  height: 20px;
+  width: 20px;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.category {
+  font-size: 18px;
+  padding: 0px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+
+.category-para {
+  margin: 0px;
+  padding: 0px;
+}
+
+.category-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 18px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.active-css {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0967d2;
+  margin-bottom: 18px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating-img {
+  width: 50%;
+}
+
+.up {
+  margin: 0px;
+  padding: 0px;
+}
+
+.up-acitve-css {
+  margin: 0px;
+  padding: 0px;
+  color: #0967d2;
+}
+
+.clear-filter {
+  border: 2px solid #0967d2;
+  color: #0967d2;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 7px;
+  margin-top: 10px;
+}
